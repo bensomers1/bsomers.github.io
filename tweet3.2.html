@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweet 3.1</title>
+	<style type="text/css">
+.div3 {font-size: 20px;
+  font-family: arial;
+  text-align: center;
+  color: #CE8C14;
+}
+body{
+  line-spacing: 20px;
+  background: #C10604;
+}
+div2{ 
+  font-size: 50px;
+  text-align: center;
+  position: fixed;
+  margin: 250px;
+  font-family: arial black;
+  letter-spacing:-5px;
+  color: #CE8C14;
+  
+}
+.box {
+  width: 2000px;
+   line-spacing: 20px;
+  height:200px;
+  background-color: #CE8C14;
+  /*   add your animation name and settings here */
+  animation-name:spinUG;
+  animation-duration:2500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes spinUG {
+  
+  from {
+    height:200px;
+  }
+  
+  to {
+    height:400px;
+  }
+  
+  
+}
+.box2 {
+  width: 3000px;
+  height:2000px;
+   line-spacing: 20px;
+  background-color: #CE8C14;
+  animation-name:spinUG2;
+  animation-duration:2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes spinUG2 {
+  
+  from {
+    height:400px;
+  }
+  
+  to {
+    height:400px;
+  }
+
+
+	</style>
+<div2> Is it OK to wear pajama paints to the grocery store? </div2>
+<div class="box"></div><br>
+<br> <br><br>
+<div3 class="date">
+7:00AM.27.Mar.2019
+</div3>
+<div class="box2"></div>
+
+
+</html>
